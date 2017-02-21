@@ -13,12 +13,12 @@ public class Driver
 	{
 		Rectangle arenaColour = new Rectangle((GAposX - (GAposX / 2)),(GAposY - (GAposY / 2)),GAposX,GAposY, "BLUE");
 		GA.addRectangle(arenaColour);
-		//generateRectangles();
+		generateRectangles();
 
 	}
 	public static void generateRectangles()
 	{
-		String colour = "BLUE";
+		String colour = "BLACK";
 		
 		rLoc[0][0] = 250; //X coord
 		rLoc[0][1] = 10; //Y coord
@@ -26,27 +26,7 @@ public class Driver
 		rLoc[0][3] = 20; //H coord
 		Rectangle R1 = new Rectangle(rLoc[0][0],rLoc[0][1],rLoc[0][2],rLoc[0][3], colour);
 		GA.addRectangle(R1);
-		
-		rLoc[0][0] = 250; //X coord
-		rLoc[0][1] = 490; //Y coord
-		rLoc[0][2] = 500; //W coord
-		rLoc[0][3] = 20; //H coord
-		Rectangle R2 = new Rectangle(rLoc[0][0],rLoc[0][1],rLoc[0][2],rLoc[0][3], colour);
-		GA.addRectangle(R2);
-		
-		rLoc[0][0] = 10; //X coord
-		rLoc[0][1] = 250; //Y coord
-		rLoc[0][2] = 20; //W coord
-		rLoc[0][3] = 500; //H coord
-		Rectangle R3 = new Rectangle(rLoc[0][0],rLoc[0][1],rLoc[0][2],rLoc[0][3], colour);
-		GA.addRectangle(R3);
-		
-		rLoc[0][0] = 490; //X coord
-		rLoc[0][1] = 250; //Y coord
-		rLoc[0][2] = 20; //W coord
-		rLoc[0][3] = 500; //H coord
-		Rectangle R4 = new Rectangle(rLoc[0][0],rLoc[0][1],rLoc[0][2],rLoc[0][3], colour);
-		GA.addRectangle(R4);
+
 	}
 	
 }
