@@ -2,13 +2,12 @@ public class Driver
 {
 	public static void main(String[] arguments)
 	{
-		
+		initiateGameArena();
 	}
-	public void initiateGameArena()
+	public static void initiateGameArena()
 	{
-		int[][] rectangleLoc = {
-			{100,100};
-		}
+		int[][] rectangleLoc = new int[100][2]; //for column, 0 = x, 1 = y
+
 
 	}
 }
