@@ -18,7 +18,7 @@ public class Driver
 	}
 	public static void generateRectangles()
 	{
-		String colour = "BLACK";
+		String colour = "BLACK"; //colour
 		
 		rLoc[0][0] = 250; //X coord
 		rLoc[0][1] = 10; //Y coord
